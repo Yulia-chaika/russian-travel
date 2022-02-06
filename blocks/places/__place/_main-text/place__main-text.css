@@ -1,0 +1,13 @@
+.place__main-text {
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place__main-text {
+    margin: 0 16px 0 16px;
+  }
+}
