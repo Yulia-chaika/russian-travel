@@ -1,11 +1,17 @@
 .place__paragraph {
   grid-area: paragraph;
-  margin: 0 0 26px 0;
-}
-
-.places__place_paragraph:last-child {
   margin: 0;
 }
+
+/*
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places__place_paragraph:last-child {
+    margin: 0;
+  }
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .places__place_paragraph {
@@ -18,3 +24,5 @@
     margin-left: 16px;
   }
 }
+
+*/
